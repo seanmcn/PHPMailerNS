@@ -27,8 +27,8 @@ namespace PHPMailerNS;
  * @author Brent R. Matzelle (original founder)
  */
 
-use PhpMailerNS\Exception;
-use PhpMailerNS\Smtp;
+use PHPMailerNS\Exception;
+use PHPMailerNS\Smtp;
 
 class Mailer
 {
