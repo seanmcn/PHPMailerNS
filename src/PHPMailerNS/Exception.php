@@ -1,5 +1,5 @@
 <?php
-namespace PhpMailerNS;
+namespace PHPMailerNS;
 /**
  * PHPMailer exception handler
  * @package PHPMailer

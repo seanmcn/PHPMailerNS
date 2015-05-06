@@ -1,5 +1,5 @@
 <?php
-namespace PhpMailerNS;
+namespace PHPMailerNS;
 /**
  * PHPMailer POP-Before-SMTP Authentication Class.
  * PHP Version 5
