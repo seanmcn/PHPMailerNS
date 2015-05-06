@@ -2,6 +2,11 @@
 
 # PHPMailerNS - A namespaced version of "[PHPMailer](https://github.com/PHPMailer/)" - A full-featured email creation and transfer class for PHP
 
+## [PHPMailerNS](https://github.com/Seanmcn/PHPMailerNS) Class Features
+
+- Namespace Support
+- Compatible with PHP 5.3 and later
+
 ## [PHPMailer](https://github.com/PHPMailer/) Class Features
 
 - Probably the world's most popular code for sending email from PHP!
