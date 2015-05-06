@@ -1,4 +1,5 @@
 <?php
+namespace PhpMailerNS;
 /**
  * PHPMailer POP-Before-SMTP Authentication Class.
  * PHP Version 5
@@ -27,7 +28,7 @@
  * @author Jim Jagielski (jimjag) <jimjag@gmail.com>
  * @author Andy Prevost (codeworxtech) <codeworxtech@users.sourceforge.net>
  */
-class POP3
+class PhpMailerNS_Pop3
 {
     /**
      * The POP3 PHPMailer Version number.
@@ -145,7 +146,7 @@ class POP3
         $password = '',
         $debug_level = 0
     ) {
-        $pop = new POP3;
+        $pop = new PHPMailer_Pop3;
         return $pop->authorise($host, $port, $timeout, $username, $password, $debug_level);
     }
 
@@ -300,7 +301,7 @@ class POP3
         //So ignore errors here
         try {
             @fclose($this->pop_conn);
-        } catch (Exception $e) {
+        } catch (\Exception $e) {
             //Do nothing
         };
     }

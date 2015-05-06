@@ -1,7 +1,7 @@
 {
-    "name": "phpmailer/phpmailer",
+    "name": "phpmailerns/phpmailerns",
     "type": "library",
-    "description": "PHPMailer is a full-featured email creation and transfer class for PHP",
+    "description": "PHPMailerNS is a name spaced fork of 'PHPMailer' the full-featured email creation and transfer class for PHP",
     "authors": [
         {
             "name": "Marcus Bointon",
@@ -17,23 +17,19 @@
         },
         {
             "name": "Brent R. Matzelle"
+        },
+        {
+            "name" : "Sean McNamara",
+            "email": "me@seanmcn.com"
         }
     ],
     "require": {
-        "php": ">=5.0.0"
-    },
-    "require-dev": {
-        "phpdocumentor/phpdocumentor": "*",
-        "phpunit/phpunit": "4.3.*"
+        "php": ">=5.3.0"
     },
     "autoload": {
-        "classmap": [
-            "class.phpmailer.php",
-            "class.smtp.php",
-            "class.pop3.php",
-            "extras/EasyPeasyICS.php",
-            "extras/ntlm_sasl_client.php"
-        ]
+      "psr-4": {
+        "PhpMailerNS\\": "src/PhpMailerNS/"
+      }
     },
     "license": "LGPL-2.1"
 }

@@ -1,4 +1,5 @@
 <?php
+namespace PhpMailerNS;
 /**
  * PHPMailer RFC821 SMTP email transport class.
  * PHP Version 5
@@ -24,7 +25,7 @@
  * @author Chris Ryan
  * @author Marcus Bointon <phpmailer@synchromedia.co.uk>
  */
-class SMTP
+class PhpMailerNS_Smtp
 {
     /**
      * The PHPMailer SMTP version number.
@@ -446,8 +447,8 @@ class SMTP
                  * PROTOCOL Docs http://curl.haxx.se/rfc/ntlm.html#ntlmSmtpAuthentication
                  */
                 require_once 'extras/ntlm_sasl_client.php';
-                $temp = new stdClass;
-                $ntlm_client = new ntlm_sasl_client_class;
+                $temp = new \stdClass;
+                $ntlm_client = new \ntlm_sasl_client_class;
                 //Check that functions are available
                 if (!$ntlm_client->Initialize($temp)) {
                     $this->setError($temp->error);
