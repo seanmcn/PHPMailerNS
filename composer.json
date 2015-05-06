@@ -29,7 +29,7 @@
     },
     "autoload": {
       "psr-4": {
-        "PhpMailerNS\\": "src/PhpMailerNS/"
+        "PhpMailerNs\\": "src/PhpMailerNs/"
       }
     },
     "license": "LGPL-2.1"
