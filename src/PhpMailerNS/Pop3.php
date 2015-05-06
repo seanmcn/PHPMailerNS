@@ -28,7 +28,7 @@ namespace PhpMailerNS;
  * @author Jim Jagielski (jimjag) <jimjag@gmail.com>
  * @author Andy Prevost (codeworxtech) <codeworxtech@users.sourceforge.net>
  */
-class PhpMailerNS_Pop3
+class Pop3
 {
     /**
      * The POP3 PHPMailer Version number.
@@ -146,7 +146,7 @@ class PhpMailerNS_Pop3
         $password = '',
         $debug_level = 0
     ) {
-        $pop = new PHPMailer_Pop3;
+        $pop = new Pop3;
         return $pop->authorise($host, $port, $timeout, $username, $password, $debug_level);
     }
 

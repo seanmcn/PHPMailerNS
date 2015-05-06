@@ -4,7 +4,7 @@ namespace PhpMailerNS;
  * PHPMailer exception handler
  * @package PHPMailer
  */
-    class PhpMailerNS_Exception extends \Exception
+    class Exception extends \Exception
     {
         /**
          * Prettify error message output

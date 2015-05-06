@@ -25,7 +25,7 @@ namespace PhpMailerNS;
  * @author Chris Ryan
  * @author Marcus Bointon <phpmailer@synchromedia.co.uk>
  */
-class PhpMailerNS_Smtp
+class Smtp
 {
     /**
      * The PHPMailer SMTP version number.

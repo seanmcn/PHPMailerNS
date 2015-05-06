@@ -20,7 +20,8 @@
         },
         {
             "name" : "Sean McNamara",
-            "email": "me@seanmcn.com"
+            "email": "me@seanmcn.com",
+            "role": "Namespace Refactorer"
         }
     ],
     "require": {
