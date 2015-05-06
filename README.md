@@ -1,6 +1,6 @@
 ![PHPMailer](https://raw.github.com/PHPMailer/PHPMailer/master/examples/images/phpmailer.png)
 
-# PHPMailerNS - A namespaced version of "[PHPMailer](https://github.com/PHPMailer/)" - A full-featured email creation and transfer class for PHP
+# PHPMailerNS - The namespaced "[PHPMailer](https://github.com/PHPMailer/)"
 
 ## [PHPMailerNS](https://github.com/Seanmcn/PHPMailerNS) Class Features
 
@@ -82,14 +82,13 @@ if(!$mail->send()) {
 That's it. You should now be ready to use PHPMailerNS!
 
 ## Localization
-PHPMailer defaults to English, but in the [language](language/) folder you'll find numerous (46 at the time of writing!) translations for PHPMailer error messages that you may encounter. Their filenames contain [ISO 639-1](http://en.wikipedia.org/wiki/ISO_639-1) language code for the translations, for example `fr` for French. To specify a language, you need to tell PHPMailer which one to use, like this:
+[PHPMailer](https://github.com/PHPMailer/) defaults to English, but in the [language](language/) folder you'll find numerous (46 at the time of writing!) translations for [PHPMailer](https://github.com/PHPMailer/) error messages that you may encounter. Their file names contain [ISO 639-1](http://en.wikipedia.org/wiki/ISO_639-1) language code for the translations, for example `fr` for French. To specify a language, you need to tell [PHPMailer](https://github.com/PHPMailer/) which one to use, like this:
 
 ```php
 // To load the French version
 $mail->setLanguage('fr', '/optional/path/to/language/directory/');
 ```
 
-We welcome corrections and new languages - if you're looking for corrections to do, run the [phpmailerLangTest.php](test/phpmailerLangTest.php) script in the tests folder and it will show any missing translations.
 
 ## Documentation
 
