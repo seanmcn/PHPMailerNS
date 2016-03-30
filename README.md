@@ -1,3 +1,8 @@
+# Disclaimer
+
+## You should really probably be using SwiftMailer - [ [Github](https://github.com/swiftmailer/swiftmailer) | [Packagist](https://packagist.org/packages/swiftmailer/swiftmailer) ] instead of this.
+
+
 ![PHPMailer](https://raw.github.com/PHPMailer/PHPMailer/master/examples/images/phpmailer.png)
 
 # PHPMailerNS - The namespaced "[PHPMailer](https://github.com/PHPMailer/)"
